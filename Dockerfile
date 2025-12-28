@@ -1,14 +1,14 @@
-# ベースとなるイメージを指定
-FROM openjdk:17-jdk
+# 1. OpenJDK 17 イメージを選択
+FROM openjdk:17-jdk-slim
 
-# 作業ディレクトリを作成
+# 2. 作業ディレクトリを作成
 WORKDIR /app
 
-# ソースコード（必要なファイル）をコンテナにコピー
+# 3. 必要なファイルをコピー
 COPY . .
 
-# Eaglercraftサーバーをビルド・セットアップするコマンド
+# 4. 必要な権限を設定（もし必要なら）
 RUN chmod +x startup.sh
 
-# サーバー起動コマンド
+# 5. サーバーを起動するコマンド
 CMD ["./startup.sh"]
