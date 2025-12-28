@@ -1,5 +1,5 @@
 cd bungee
-java -jar bungee.jar
+java -jar bungee.jar &
 cd ..
 cd server
-java -jar server.jar &
+java -jar server.jar
