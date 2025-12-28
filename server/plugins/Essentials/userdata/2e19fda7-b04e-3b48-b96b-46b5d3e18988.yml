@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766409419948
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766724530515
+  login: 1766724493381
+money: '0'
+last-account-name: KS0721ISland
+lastlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -112.4573740572147
+  y: 64.0
+  z: 254.76934128778777
+  yaw: -2.6999263763427734
+  pitch: 48.74998092651367
+logoutlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -110.51568682168077
+  y: 64.0
+  z: 279.743927102374
+  yaw: -268.3496398925781
+  pitch: 25.950035095214844

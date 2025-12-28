@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ClearSMP Store</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root {
+    --bg: #0b0b0b;
+    --card: #151515;
+    --accent: #22c55e;
+    --text: #e5e5e5;
+    --sub: #9ca3af;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, "Segoe UI", sans-serif;
+}
+
+/* Header */
+header {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header span { color: var(--accent); }
+
+header p { color: var(--sub); }
+
+/* Address */
+.address {
+    max-width: 900px;
+    margin: 20px auto;
+    background: var(--card);
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    gap: 10px;
+}
+
+.address input {
+    flex: 1;
+    background: #0f0f0f;
+    border: 1px solid #222;
+    color: var(--text);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.address button {
+    background: var(--accent);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover { color: var(--accent); }
+
+/* Sections */
+section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 { margin-bottom: 20px; }
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 25px;
+    border: 1px solid #222;
+}
+
+.card h3 { margin-top: 0; }
+
+.tag {
+    display: inline-block;
+    background: #1f2933;
+    color: var(--sub);
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: var(--sub);
+    border-top: 1px solid #222;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Clear<span>SMP</span></h1>
+    <p>建築メイン Minecraft SMP</p>
+</header>
+
+<div class="address">
+    <input id="addr" readonly value="wss://3980de16-5a07-4b9d-8aa4-c069e1e3484b-00-3hi3mom6gya7b.sisko.replit.dev/">
+    <button onclick="copyAddr()">コピー</button>
+</div>
+
+<nav>
+    <a href="#about">詳細</a>
+    <a href="#store">ストア</a>
+    <a href="#rank">Rank</a>
+    <a href="#op">OPリクエスト</a>
+</nav>
+
+<section id="about">
+    <h2>ClearSMPについて</h2>
+    <div class="card">
+        <p>
+            ClearSMPは<strong>建築を中心</strong>に楽しむサバイバルマルチプレイサーバーです。<br>
+            大規模建築・街作り・景観デザインを重視しています。
+        </p>
+    </div>
+</section>
+
+<section id="store">
+    <h2>ストア（開発中）</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>装飾コンテンツ</h3>
+            <p>建築向けの見た目・称号・装飾要素を予定しています。</p>
+            <span class="tag">Coming Soon</span>
+        </div>
+
+        <div class="card">
+            <h3>便利機能</h3>
+            <p>建築補助・表示系の便利機能を検討中です。</p>
+            <span class="tag">開発中</span>
+        </div>
+    </div>
+</section>
+
+<section id="rank">
+    <h2>Rank（開発中）</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Builder</h3>
+            <p>建築者向けの称号ランク。</p>
+            <span class="tag">準備中</span>
+        </div>
+
+        <div class="card">
+            <h3>Architect</h3>
+            <p>大型建築・街開発向けランク。</p>
+            <span class="tag">準備中</span>
+        </div>
+    </div>
+</section>
+
+<section id="op">
+    <h2>OPリクエスト</h2>
+    <div class="card">
+        <p>
+            サーバー運営・管理を手伝ってくれる方を募集予定です。<br>
+            建築実績や活動状況を重視します。
+        </p>
+        <span class="tag">申請準備中</span>
+    </div>
+</section>
+
+<footer>
+    © 2025 ClearSMP
+</footer>
+
+<script>
+function copyAddr() {
+    navigator.clipboard.writeText(
+        document.getElementById("addr").value
+    );
+    alert("サーバーアドレスをコピーしました！");
+}
+</script>
+
+</body>
+</html>

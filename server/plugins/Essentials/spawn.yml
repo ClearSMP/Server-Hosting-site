@@ -1,0 +1,25 @@
+spawns:
+  default:
+    world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+    world-name: world
+    x: -112.5
+    y: 64.0
+    z: 256.5
+    yaw: 0.2979387938976288
+    pitch: 4.499974727630615
+  owner:
+    world: 65e9f53b-29a3-4b92-8223-79509aab7539
+    world-name: AdminWorld
+    x: 0.5
+    y: 4.0
+    z: 0.5
+    yaw: 0.14886797964572906
+    pitch: -4.949977397918701
+  loginpos:
+    world: 397ddfc8-5525-4248-92f2-8eb25f71e3fa
+    world-name: world_the_end
+    x: -1.1373304364579698E7
+    y: 71.0
+    z: 8292892.629813894
+    yaw: -357.4476318359375
+    pitch: 13.199993133544922

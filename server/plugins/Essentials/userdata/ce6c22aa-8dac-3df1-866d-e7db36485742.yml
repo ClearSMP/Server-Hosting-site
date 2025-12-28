@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766879390114
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766879392716
+  login: 1766879151656
+money: '0'
+lastlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -110.80028554926353
+  y: 64.875
+  z: 253.69975639060013
+  yaw: 0.2979387938976288
+  pitch: 4.499974727630615
+last-account-name: KS1220ISland_ALT
+logoutlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -112.49797055264935
+  y: 64.0
+  z: 255.06471660670093
+  yaw: -0.4520612061023712
+  pitch: 1.7999749183654785
+nickname: §0§m§lKS§8§m§l12§7§m§l2§f§m§l0I§7§m§lS§8§m§lla§0§m§lnd§8§m§l_ALT

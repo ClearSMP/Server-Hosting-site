@@ -1,0 +1,8 @@
+# チャットに表示する接頭辞
+prefix: "&6&l[&e&lReplit&6&l] &r"
+
+# 表示するメッセージ
+message: "Powered by Replit. https://replit.com"
+
+# 表示間隔（分）
+interval-minutes: 3

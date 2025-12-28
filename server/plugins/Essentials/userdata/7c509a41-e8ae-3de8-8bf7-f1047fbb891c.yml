@@ -1,0 +1,51 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766917535089
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766918021953
+  login: 1766916934457
+  kits:
+    dtools: 1766382693565
+    optools: 1766907850646
+money: '38200.00'
+last-account-name: KS1220ISland
+logoutlocation:
+  world: 65e9f53b-29a3-4b92-8223-79509aab7539
+  world-name: AdminWorld
+  x: 2.615658576214197
+  y: 4.875
+  z: 5.314997717864352
+  yaw: 119.84800720214844
+  pitch: 49.050010681152344
+nickname: §0§m§lKS§8§m§l12§7§m§l2§f§m§l0I§7§m§lS§8§m§lla§0§m§lnd
+lastlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -1.6656178300000012E7
+  y: 67.0
+  z: -2.6541636300000012E7
+  yaw: -40.74427032470703
+  pitch: 85.94999694824219
+homes:
+  home:
+    world: 65e9f53b-29a3-4b92-8223-79509aab7539
+    world-name: AdminWorld
+    x: 30.470608594357508
+    y: 4.0
+    z: 3.404421926509023
+    yaw: -266.324951171875
+    pitch: 1.649998664855957

@@ -1,0 +1,39 @@
+# +---------------------------------------------------------------------------------------------------------+
+# Prefix is made by martijnpu
+# File generated in version v7.5
+# For the descriptions for each setting check the documentation:
+# https://hangar.papermc.io/martijnpu/PrefiX/pages/Documentation/Config
+# +---------------------------------------------------------------------------------------------------------+
+# 
+# Automatically download the latest version when available
+auto-update: false
+prefix:
+  max-length: 99
+  start-character: ''
+  end-character: ''
+  bracket:
+    enable: false
+    change-color: ''
+suffix:
+  max-length: 20
+  start-character: <
+  end-character: '>'
+general:
+  language: en_US
+  hexadecimal:
+    enabled: false
+    format: '&#rrggbb'
+    gradient: false
+    hex-names: false
+  hide-warnings: false
+  keep-context: false
+  whitelist:
+  - \w
+  - \p{Punct}
+  - ' '
+  blacklist:
+  -
+templates:
+  enabled: false
+  list:
+    example: '&a[&bTemplateExample&a] '

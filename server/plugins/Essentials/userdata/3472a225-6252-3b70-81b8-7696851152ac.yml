@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766223345176
+  login: 1766222833116
+money: '0'
+last-account-name: TheSundayNight
+lastlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -115.5
+  y: 64.0
+  z: 247.5
+  yaw: 2.545625686645508
+  pitch: 0.0
+logoutlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -130.12130848694682
+  y: 72.0
+  z: 390.7099505352497
+  yaw: 63.05765914916992
+  pitch: 22.649986267089844

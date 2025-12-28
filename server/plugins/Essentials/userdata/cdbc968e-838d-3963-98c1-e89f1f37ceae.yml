@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766619179696
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766619741287
+  login: 1766619706470
+money: '0'
+lastlocation:
+  world: 65e9f53b-29a3-4b92-8223-79509aab7539
+  world-name: AdminWorld
+  x: -109.03158067818563
+  y: 74.61948414722464
+  z: 303.40877144974627
+  yaw: -9.45000171661377
+  pitch: -0.15000000596046448
+last-account-name: Numai_Player12
+logoutlocation:
+  world: 65e9f53b-29a3-4b92-8223-79509aab7539
+  world-name: AdminWorld
+  x: -0.29831535007343124
+  y: 9.0
+  z: 0.6934483987967458
+  yaw: 318.449951171875
+  pitch: 35.099971771240234
+nickname: §1§m§lNu§9§m§lma§b§m§li_§f§m§lP§b§m§ll§9§m§laye§1§m§lr12

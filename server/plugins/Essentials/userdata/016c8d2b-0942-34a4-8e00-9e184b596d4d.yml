@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766910136746
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766910159047
+  login: 1766910136645
+  kits:
+    tools: 1766212030090
+money: '0'
+lastlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -112.0
+  y: 64.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+last-account-name: Player_Akito2018
+logoutlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -108.30000001192093
+  y: 59.0
+  z: 253.30000001192093
+  yaw: -26.249969482421875
+  pitch: 90.0
+nickname: §5§m§lPla§d§m§lyer§f§m§l_Ak§d§m§lito2§5§m§l018
