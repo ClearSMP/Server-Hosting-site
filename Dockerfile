@@ -1,5 +1,5 @@
 # 1. OpenJDK 17 イメージを選択
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk AS build
 
 # 2. 作業ディレクトリを作成
 WORKDIR /app
